@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('git'){
             steps{
-                git branch: 'master', credentialsId: 'git', url: 'https://github.com/swetha2310/hello-world.git
+                git branch: 'master', credentialsId: 'git', url: 'https://github.com/swetha2310/hello-world.git'
             }
         }
 	    stage('Build'){
